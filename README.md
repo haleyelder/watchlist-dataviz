@@ -5,11 +5,11 @@ For most of 2021 and part into 2022, I've been noting down nearly every movie an
 Steps/To Do:
 
 ## Python
-[x] - reads csv file; only first row of titles; verify titles are correct/easier to API request later 
-[x] - convert titles to lower case
-[] - convert spaces to + (%20 if needed)
-[x] - request using t=title&key= 
-[] - save data fields to match in csv file; starting example fields below
+- [x] reads csv file; only first row of titles; verify titles are correct/easier to API request later 
+- [x] convert titles to lower case
+- [] convert spaces to + (%20 if needed)
+- [x] request using t=title&key= 
+- [] save data fields to match in csv file; starting example fields below
     a. Title    
     b. Release Year
     c. Genre
