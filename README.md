@@ -7,12 +7,14 @@ Steps/To Do:
 ## Python
 - [x] reads csv file; only first row of titles; verify titles are correct/easier to API request later 
 - [x] convert titles to lower case
-- [] convert spaces to + (%20 if needed)
+- [ ] convert spaces to + (%20 if needed)
 - [x] request using t=title&key= 
-- [] save data fields to match in csv file; starting example fields below
+- [ ] save data fields to match in csv file; starting example fields below
     a. Title    
     b. Release Year
     c. Genre
     d. Type (movie or series)
+- [ ] multiple API requests per line
+- [ ] update singular csv file with all data (completion date is manual)
 
 ## JavaScript/D3

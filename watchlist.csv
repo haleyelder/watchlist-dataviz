@@ -1,4 +1,4 @@
-Title,type,genre,date completed,
+Title,type,genre (API data),date completed,"manual addition, season"
 The Dig,movie,period drama,02/06/21,
 The Breadwinner,movie,war/drama,02/11/21,
 Okko's Inn,movie,"heartfelt, family",02/13/21,
@@ -14,7 +14,7 @@ Hobbit pt 2,movie,fantasy,03/06/21,
 Hobbit pt 3,movie,fantasy,03/06/21,
 LOTR 1,movie,fantasy,03/07/21,
 LOTR 2,movie,fantasy,03/07/21,
-LOTR 3,movie,fantasy,03/07/21,didnt finish
+LOTR 3,movie,fantasy,03/07/21,
 mercury 13,movie,,03/12/21,
 Maleficent,movie,fantasy,03/20/21,
 Maleficent 2 ,movie,fantasy,03/21/21,

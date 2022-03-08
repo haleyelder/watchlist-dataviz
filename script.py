@@ -2,6 +2,7 @@ import csv
 import os
 from platform import release
 import requests
+import json
 
 from dotenv import load_dotenv
 load_dotenv()
@@ -9,19 +10,20 @@ load_dotenv()
 APIKEY = os.getenv("API_ENV_VAR")
 
 # open file and output first line (titles only)
-with open('watchlist.csv', 'r') as file:
-    reader = csv.reader(file)
-    for row in reader: 
-        print(row[0].lower())
+with open('watchlist-small.csv', 'r') as file:
+    reader = csv.DictReader(file)
+    for row in reader:
+        titles = row["Title"]
+        print(titles)
 
-# request IMDB info i=title name
+# request IMDB info t=title name
 
 payload = {"apikey":{APIKEY}}
-r = requests.get("https://www.omdbapi.com/?t=Ozark", params=payload)
+r = requests.get("https://www.omdbapi.com/?t=" + titles, params=payload)
 response = r.json()
 
 if r.status_code == 200:
-    rows = []
+    print(response)
     
     titles = response["Title"]
     release_year = response["Year"]
@@ -31,25 +33,13 @@ if r.status_code == 200:
     
     print("Titles: " + titles)
     print("Year: " + release_year)
-    
-    fields = ['Title', 'Years']
-    rows.append([titles])
-    rows.append([release_year])
 
-    # print(rows)
+    with open('watchlist-updated.csv', 'w', newline='') as csvfile:
+        fieldnames = ['Title','Year','Genre','Runtime', 'Language', 'imdbVotes', 'Rated', 'Actors', 'Type', 'Awards', 'Ratings', 'Released', 'Writer', 'imdbRating', 'Poster', 'Director', 'totalSeasons', 'Plot', 'Mpe', 'Awards', 'Ratingsetascore', 'imdbID', 'Response', 'Country','Metascore','Production', 'BoxOffice', 'DVD', 'Website']
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerow(response)
 
-    # rows = [['LOTR', 1999, 'Fantasy','movie'],
-    #         ['The Great', 2019, 'Drama', 'tv show'],
-    #         ['Belfast', 2021, 'Drama', 'movie'],
-    #         ['The Fall', 2008, 'Fantasy', 'movie']]
-
-    filename = 'watchlist-updated.csv'
-
-    with open(filename, 'w') as csvfile:
-        csvwriter = csv.writer(csvfile)
-
-        csvwriter.writerow(fields)
-        csvwriter.writerows(rows)
 else: 
     print('an error has occurred')
 
