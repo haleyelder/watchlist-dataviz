@@ -1366,26 +1366,26 @@
 	"imdbID": "tt2380307",
 	"Type": "movie",
 	"Response": "True"
-    }, {
-        "Title": "The Great",
-        "Year": "2020–",
-        "Rated": "TV-MA",
-        "Released": "15 May 2020",
-        "Runtime": "45 min",
-        "Genre": "Biography Comed Drama",
-        "Director": "N/A",
-        "imdbRating": "8.2",
-        "imdbID": "tt2235759",
-        "Type": "series",
-        "totalSeasons": "2",
-        "Response": "True"
-    }, {
+}, {
+    "Title": "The Great",
+    "Year": "2020–",
+    "Rated": "TV-MA",
+    "Released": "15 May 2020",
+    "Runtime": "45 min",
+    "Genre": "Biography Comed Drama",
+    "Director": "N/A",
+    "imdbRating": "8.2",
+    "imdbID": "tt2235759",
+    "Type": "series",
+    "totalSeasons": "2",
+    "Response": "True"
+}, {
 	"Title": "The Expanse",
 	"Year": "2015–",
 	"Rated": "TV-14",
 	"Released": "23 Nov 2015",
 	"Runtime": "60 min",
-	"Genre": "Drama Myster Sci-Fi",
+	"Genre": "Drama Mystery Sci-Fi",
 	"Director": "N/A",
 	"imdbRating": "8.5",
 	"imdbID": "tt3230854",
