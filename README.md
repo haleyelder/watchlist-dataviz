@@ -18,6 +18,6 @@ Found a solution through Google Sheets and an API call instead!
 ## JavaScript/D3
 - requested API data through dynamic calls with google sheets, cleaned/formatted data, and placed in watchlist-main.json
   - need to add dates, seasons to specify for shows
-- table of entire list; filter/sort by date watched, alphabetical, show vs movie, ratings? 
-- plot on dot chart, hovering or clicking on the table will highlight the dot chart and vice versa, hover the dot or table for more info? rating etc
-- bubble chart groupings: release year, genres
+- sorted/filterable table (); filter/sort by date watched, alphabetical, show vs movie, ratings? 
+- dot plot chart for over time, hovering or clicking on the table will highlight the dot chart and vice versa
+- bubble chart groupings(https://observablehq.com/@d3/zoomable-circle-packing): genres, maybe more? 
