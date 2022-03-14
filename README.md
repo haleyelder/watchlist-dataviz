@@ -16,9 +16,11 @@ Steps/To Do:
 Found a solution through Google Sheets and an API call instead!
 
 ## JavaScript/D3
-- requested API data through dynamic calls with google sheets, cleaned/formatted data, and placed in watchlist-main.json
-  - need to add dates, seasons to specify for shows
-- sorted/filterable table (); filter/sort by date watched, alphabetical, show vs movie, ratings?, link to imdb page with built URL with imdbID (https://www.imdb.com/title/tt9032400/ for eternals eg)
-- dot plot chart for over time (x axis is time, y is imdb rating? or year released) (https://observablehq.com/@d3/dot-plot or https://observablehq.com/@d3/scatterplot), hovering or clicking on the table will highlight the dot chart and vice versa
-- bubble chart groupings(https://observablehq.com/@d3/zoomable-circle-packing or https://observablehq.com/@d3/bubble-chart): genres, maybe more? 
-- all in one data? inner radial is date (https://observablehq.com/@d3/radial-stacked-bar-chart-ii)
+- [x} requested API data through dynamic calls with google sheets, cleaned/formatted data, and placed in watchlist-main.json
+  - [x] need to add dates, seasons to specify for shows
+TABS (vertial left sidebar with bootstrap):
+- [x] sort/filterable total table, date watched, genre, rating, type, links to imdb page, etc
+  - [ ] add sorting function
+- [ ] dot plot chart for over time (x axis is time/date, y is imdb rating and/or year released) (https://observablehq.com/@d3/dot-plot or https://observablehq.com/@d3/scatterplot), hovering dot displays title and date watched (maybe link to spot on table?)
+- [ ] bubble chart groupings(https://observablehq.com/@d3/zoomable-circle-packing or https://observablehq.com/@d3/bubble-chart): genres
+- optional: all in one data? inner radial is date (https://observablehq.com/@d3/radial-stacked-bar-chart-ii)

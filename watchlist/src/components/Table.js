@@ -24,7 +24,7 @@ class Table extends React.Component {
                         {data.map(p => (
                             <tr>
                                 <td>{p.DateCompleted}</td>
-                                <td>{p.Title}</td>
+                                <td><a href={`https://www.imdb.com/title/${p.imdbID}/`}>{p.Title}</a></td>
                                 <td>{p.Type}</td>
                                 <td>{p.totalSeasons}</td>
                                 <td>{p.seasonsWatched}</td>
