@@ -3,13 +3,19 @@ import React from 'react'
 
 class Table extends React.Component {
     render() {
-        const { data } = this.props;
+        const { watchlistData } = this.props;
+
+        // adding increment key ids to data
+        watchlistData.forEach((item, i) => {
+           item.id = i + 1
+       })
 
         return (
-            data.length > 0 && (
-                <table className = 'text-left'>
+            watchlistData.length > 0 && (   
+                <table>
                     <thead>
-                        <tr>
+                        <tr >
+                            <th>ID</th>
                             <th>Date Watched/Completed</th>
                             <th>Title</th>
                             <th>Type</th>
@@ -21,16 +27,17 @@ class Table extends React.Component {
                         </tr>
                     </thead>
                     <tbody>
-                        {data.map(p => (
+                        {watchlistData.map(id => (
                             <tr>
-                                <td>{p.DateCompleted}</td>
-                                <td><a href={`https://www.imdb.com/title/${p.imdbID}/`}>{p.Title}</a></td>
-                                <td>{p.Type}</td>
-                                <td>{p.totalSeasons}</td>
-                                <td>{p.seasonsWatched}</td>
-                                <td>{p.imdbRating}</td>
-                                <td>{p.Year}</td>
-                                <td>{p.Genre}</td>
+                                <td key={id}>{id.id}</td>
+                                <td>{id.DateCompleted}</td>
+                                <td><a href={`https://www.imdb.com/title/${id.imdbID}/`}>{id.Title}</a></td>
+                                <td>{id.Type}</td>
+                                <td>{id.totalSeasons}</td>
+                                <td>{id.seasonsWatched}</td>
+                                <td>{id.imdbRating}</td>
+                                <td>{id.Year}</td>
+                                <td>{id.Genre}</td>
                             </tr>
                         ))}
                     </tbody>

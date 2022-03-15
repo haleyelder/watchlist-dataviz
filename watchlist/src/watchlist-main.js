@@ -1,4 +1,4 @@
-const data = [{
+const watchlistData = [{
 	"Title": "The Dig",
 	"Year": "2021",
 	"Rated": "PG-13",
@@ -1466,4 +1466,4 @@ const data = [{
     "seasonsWatched": "4 part 1"
 }]
 
-export default data;
+export default watchlistData;

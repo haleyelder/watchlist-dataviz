@@ -1,17 +1,23 @@
 import ScatterplotChart from './components/ScatterplotChart.js';
 import BubbleChart from './components/BubbleChart.js'
 import Table from './components/Table.js'
-import data from './watchlist-main.js'
+import watchlistData from './watchlist-main.js'
 
 function App() {
   return (
     <div className="App">
       <h1>Table Data Watchlist</h1>
       <p>Feb 2021 - Feb 2022 watchlist </p>
-      <p>* denotes rewatched movie/show</p>
+      <h3>Key:</h3>
+      <ul>
+        <li> *  denotes rewatched movie/show</li>
+        <li> TV seasons, Total seasons = released as of march 2022, seasons watched, separated by specific season</li> 
+      </ul>
+
       <ScatterplotChart/>
       <BubbleChart/>
-      <Table data={data}/>
+
+      <Table watchlistData={watchlistData}/>
     </div>
   );
 }
