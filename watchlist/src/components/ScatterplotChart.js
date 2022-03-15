@@ -1,18 +1,21 @@
-import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip } from 'recharts';
+import React, { PureComponent } from 'react';
+import { ScatterChart, ZAxis, Scatter, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import watchlistData from '../watchlist-main';
-const data = [{name: 'Page A', uv: 400, pv: 2400, amt: 2400},{name: 'Page B', uv: 600, pv: 2100, amt: 2200},{name: 'Page C', uv: 2000, pv: 2000, amt: 2000}];
 
-function ScatterplotChart() {
+export default class ScatterplotChart extends PureComponent {
+
+  render() {
     return (
-      <LineChart width={600} height={300} data={watchlistData} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
-        <Line type="monotone" dataKey="uv" stroke="#8884d8" />
-        <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
-        <XAxis dataKey="DateCompleted" />
-        <YAxis />
-        <Tooltip />
-      </LineChart>
+    <ScatterChart width={730} height={250}
+        margin={{ top: 20, right: 20, bottom: 10, left: 10 }}>
+        <CartesianGrid strokeDasharray="3 3" />
+        <XAxis dataKey="DateCompleted" name="watched: " unit="" />
+        <YAxis dataKey="imdbRating" name="rating: " unit="" />
+        {/* <ZAxis dataKey="z" range={[64, 144]} name="score" unit="km" /> */}
+        <Tooltip cursor={{ strokeDasharray: '3 3' }} />
+        <Legend />
+        <Scatter name="Titles" data={watchlistData} fill="#008080" />
+    </ScatterChart>
     );
-    
+  }
 }
-
-export default ScatterplotChart
