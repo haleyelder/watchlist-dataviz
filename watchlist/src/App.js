@@ -1,5 +1,5 @@
 import ScatterplotChart from './components/ScatterplotChart.js';
-import BubbleChart from './components/BubbleChart.js'
+import GenreChart from './components/GenreChart.js'
 import Table from './components/Table.js'
 import watchlistData from './watchlist-main.js'
 
@@ -15,7 +15,7 @@ function App() {
       </ul>
 
       <ScatterplotChart/>
-      <BubbleChart/>
+      <GenreChart/>
 
       <Table watchlistData={watchlistData}/>
     </div>
