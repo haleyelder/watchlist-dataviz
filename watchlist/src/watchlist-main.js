@@ -9,7 +9,7 @@ const watchlistData = [{
 	"imdbRating": "7.1",
 	"imdbID": "tt3661210",
 	"Type": "movie",
-	"DateCompleted":"2/6/21"
+	"DateCompleted": "2/6/21"
 },
 {
 	"Title": "The Breadwinner",
@@ -22,7 +22,7 @@ const watchlistData = [{
 	"imdbRating": "7.7",
 	"imdbID": "tt3901826",
 	"Type": "movie",
-	"DateCompleted":"2/6/21"
+	"DateCompleted": "2/6/21"
 },
 {
 	"Title": "Okko's Inn",
@@ -35,7 +35,7 @@ const watchlistData = [{
 	"imdbRating": "7.0",
 	"imdbID": "tt8328740",
 	"Type": "movie",
-	"DateCompleted":"2/13/21"
+	"DateCompleted": "2/13/21"
 }, {
 	"Title": "Spycraft",
 	"Year": "2020–2022",
@@ -48,8 +48,8 @@ const watchlistData = [{
 	"imdbID": "tt13789092",
 	"Type": "series",
 	"totalSeasons": "2",
-	"DateCompleted":"2/16/21",
-    "seasonsWatched": "1"
+	"DateCompleted": "2/16/21",
+	"seasonsWatched": "1"
 }, {
 	"Title": "Ozark",
 	"Year": "2017–2022",
@@ -62,8 +62,8 @@ const watchlistData = [{
 	"imdbID": "tt5071412",
 	"Type": "series",
 	"totalSeasons": "4",
-	"DateCompleted":"2/19/21",
-    "seasonsWatched": "3"
+	"DateCompleted": "2/19/21",
+	"seasonsWatched": "3"
 }, {
 	"Title": "Atomic Blonde",
 	"Year": "2017",
@@ -75,7 +75,7 @@ const watchlistData = [{
 	"imdbRating": "6.7",
 	"imdbID": "tt2406566",
 	"Type": "movie",
-	"DateCompleted":"2/22/21"
+	"DateCompleted": "2/22/21"
 }, {
 	"Title": "Prometheus",
 	"Year": "2012",
@@ -87,7 +87,7 @@ const watchlistData = [{
 	"imdbRating": "7.0",
 	"imdbID": "tt1446714",
 	"Type": "movie",
-	"DateCompleted":"2/23/21"
+	"DateCompleted": "2/23/21"
 }, {
 	"Title": "Giri/Haji",
 	"Year": "2019",
@@ -100,8 +100,8 @@ const watchlistData = [{
 	"imdbID": "tt8001106",
 	"Type": "series",
 	"totalSeasons": "1",
-	"DateCompleted":"2/27/21",
-    "seasonsWatched": "1"
+	"DateCompleted": "2/27/21",
+	"seasonsWatched": "1"
 }, {
 	"Title": "The Hobbit: An Unexpected Journey *",
 	"Year": "2012",
@@ -113,7 +113,7 @@ const watchlistData = [{
 	"imdbRating": "7.8",
 	"imdbID": "tt0903624",
 	"Type": "movie",
-	"DateCompleted":"2/28/21"
+	"DateCompleted": "2/28/21"
 }, {
 	"Title": "Mission: Impossible - Fallout",
 	"Year": "2018",
@@ -125,7 +125,7 @@ const watchlistData = [{
 	"imdbRating": "7.7",
 	"imdbID": "tt4912910",
 	"Type": "movie",
-	"DateCompleted":"3/4/21"
+	"DateCompleted": "3/4/21"
 }, {
 	"Title": "WandaVision",
 	"Year": "2021",
@@ -138,8 +138,8 @@ const watchlistData = [{
 	"imdbID": "tt9140560",
 	"Type": "series",
 	"totalSeasons": "1",
-	"DateCompleted":"3/5/21",
-    "seasonsWatched": "1"
+	"DateCompleted": "3/5/21",
+	"seasonsWatched": "1"
 }, {
 	"Title": "The Hobbit: The Desolation of Smaug *",
 	"Year": "2013",
@@ -151,7 +151,7 @@ const watchlistData = [{
 	"imdbRating": "7.8",
 	"imdbID": "tt1170358",
 	"Type": "movie",
-	"DateCompleted":"3/6/21"
+	"DateCompleted": "3/6/21"
 }, {
 	"Title": "The Hobbit: The Battle of the Five Armies",
 	"Year": "2014",
@@ -163,7 +163,7 @@ const watchlistData = [{
 	"imdbRating": "7.4",
 	"imdbID": "tt2310332",
 	"Type": "movie",
-	"DateCompleted":"3/6/21"
+	"DateCompleted": "3/6/21"
 }, {
 	"Title": "The Lord of the Rings: The Fellowship of the Ring *",
 	"Year": "2001",
@@ -175,7 +175,7 @@ const watchlistData = [{
 	"imdbRating": "8.8",
 	"imdbID": "tt0120737",
 	"Type": "movie",
-	"DateCompleted":"3/7/21"
+	"DateCompleted": "3/7/21"
 }, {
 	"Title": "The Lord of the Rings: The Two Towers *",
 	"Year": "2002",
@@ -187,7 +187,7 @@ const watchlistData = [{
 	"imdbRating": "8.7",
 	"imdbID": "tt0167261",
 	"Type": "movie",
-	"DateCompleted":"3/7/21"
+	"DateCompleted": "3/7/21"
 }, {
 	"Title": "The Lord of the Rings: The Return of the King *",
 	"Year": "2003",
@@ -199,7 +199,7 @@ const watchlistData = [{
 	"imdbRating": "8.9",
 	"imdbID": "tt0167260",
 	"Type": "movie",
-	"DateCompleted":"3/7/21"
+	"DateCompleted": "3/7/21"
 }, {
 	"Title": "Mercury 13",
 	"Year": "2018",
@@ -211,7 +211,7 @@ const watchlistData = [{
 	"imdbRating": "6.9",
 	"imdbID": "tt8139850",
 	"Type": "movie",
-	"DateCompleted":"3/12/21"
+	"DateCompleted": "3/12/21"
 }, {
 	"Title": "Maleficent",
 	"Year": "2014",
@@ -223,7 +223,7 @@ const watchlistData = [{
 	"imdbRating": "7.0",
 	"imdbID": "tt1587310",
 	"Type": "movie",
-	"DateCompleted":"3/20/21"
+	"DateCompleted": "3/20/21"
 }, {
 	"Title": "Maleficent: Mistress of Evil",
 	"Year": "2019",
@@ -235,7 +235,7 @@ const watchlistData = [{
 	"imdbRating": "6.6",
 	"imdbID": "tt4777008",
 	"Type": "movie",
-	"DateCompleted":"3/21/21"
+	"DateCompleted": "3/21/21"
 }, {
 	"Title": "Miss Peregrine's Home for Peculiar Children",
 	"Year": "2016",
@@ -247,7 +247,7 @@ const watchlistData = [{
 	"imdbRating": "6.7",
 	"imdbID": "tt1935859",
 	"Type": "movie",
-	"DateCompleted":"3/21/21"
+	"DateCompleted": "3/21/21"
 }, {
 	"Title": "The Great",
 	"Year": "2020–",
@@ -260,8 +260,8 @@ const watchlistData = [{
 	"imdbID": "tt2235759",
 	"Type": "series",
 	"totalSeasons": "2",
-	"DateCompleted":"3/27/21",
-    "seasonsWatched": "1"
+	"DateCompleted": "3/27/21",
+	"seasonsWatched": "1"
 }, {
 	"Title": "The Irregulars",
 	"Year": "2021",
@@ -274,8 +274,8 @@ const watchlistData = [{
 	"imdbID": "tt10893694",
 	"Type": "series",
 	"totalSeasons": "1",
-	"DateCompleted":"4/6/21",
-    "seasonsWatched": "1"
+	"DateCompleted": "4/6/21",
+	"seasonsWatched": "1"
 }, {
 	"Title": "Lupin *",
 	"Year": "2021–",
@@ -285,11 +285,11 @@ const watchlistData = [{
 	"Genre": "Action, Crime, Drama",
 	"Director": "N/A",
 	"imdbRating": "7.5",
-    "imdbID": "tt2531336",
+	"imdbID": "tt2531336",
 	"Type": "series",
 	"totalSeasons": "2",
-	"DateCompleted":"4/6/21",
-    "seasonsWatched": "1"
+	"DateCompleted": "4/6/21",
+	"seasonsWatched": "1"
 }, {
 	"Title": "Snowpiercer *",
 	"Year": "2013",
@@ -299,9 +299,9 @@ const watchlistData = [{
 	"Genre": "Action, Drama, Sci-Fi",
 	"Director": "Bong Joon Ho",
 	"imdbRating": "7.1",
-    "imdbID": "tt1706620",
+	"imdbID": "tt1706620",
 	"Type": "movie",
-	"DateCompleted":"4/11/21"
+	"DateCompleted": "4/11/21"
 }, {
 	"Title": "Demon Slayer: Kimetsu no Yaiba",
 	"Year": "2019–",
@@ -314,8 +314,8 @@ const watchlistData = [{
 	"imdbID": "tt9335498",
 	"Type": "series",
 	"totalSeasons": "3",
-	"DateCompleted":"4/11/21",
-    "seasonsWatched": "1"
+	"DateCompleted": "4/11/21",
+	"seasonsWatched": "1"
 }, {
 	"Title": "Agent Carter",
 	"Year": "2015–2016",
@@ -328,22 +328,22 @@ const watchlistData = [{
 	"imdbID": "tt3475734",
 	"Type": "series",
 	"totalSeasons": "2",
-	"DateCompleted":"4/15/21",
-    "seasonsWatched": "1,2"
+	"DateCompleted": "4/15/21",
+	"seasonsWatched": "1,2"
 }, {
-    "Title": "This Is a Robbery: The World's Greatest Art Heist",
-    "Year": "2021",
-    "Rated": "TV-MA",
-    "Released": "07 Apr 2021",
-    "Runtime": "210 min",
-    "Genre": "Documentary, Crime, History",
-    "Director": "N/A",
-    "imdbRating": "6.5",
-    "imdbID": "tt14223858",
-    "Type": "series",
-    "totalSeasons": "1",
-    "DateCompleted":"4/18/21",
-    "seasonsWatched": "1"
+	"Title": "This Is a Robbery: The World's Greatest Art Heist",
+	"Year": "2021",
+	"Rated": "TV-MA",
+	"Released": "07 Apr 2021",
+	"Runtime": "210 min",
+	"Genre": "Documentary, Crime, History",
+	"Director": "N/A",
+	"imdbRating": "6.5",
+	"imdbID": "tt14223858",
+	"Type": "series",
+	"totalSeasons": "1",
+	"DateCompleted": "4/18/21",
+	"seasonsWatched": "1"
 }, {
 	"Title": "The Falcon and the Winter Soldier",
 	"Year": "2021",
@@ -356,8 +356,8 @@ const watchlistData = [{
 	"imdbID": "tt9208876",
 	"Type": "series",
 	"totalSeasons": "1",
-	"DateCompleted":"4/23/21",
-    "seasonsWatched": "1"
+	"DateCompleted": "4/23/21",
+	"seasonsWatched": "1"
 }, {
 	"Title": "Carnival Row",
 	"Year": "2019–",
@@ -370,8 +370,8 @@ const watchlistData = [{
 	"imdbID": "tt0489974",
 	"Type": "series",
 	"totalSeasons": "1",
-	"DateCompleted":"4/25/21",
-    "seasonsWatched": "1"
+	"DateCompleted": "4/25/21",
+	"seasonsWatched": "1"
 }, {
 	"Title": "Formula 1: Drive to Survive",
 	"Year": "2019–",
@@ -384,8 +384,8 @@ const watchlistData = [{
 	"imdbID": "tt8289930",
 	"Type": "series",
 	"totalSeasons": "4",
-	"DateCompleted":"4/28/21",
-    "seasonsWatched": "1,2,3"
+	"DateCompleted": "4/28/21",
+	"seasonsWatched": "1,2,3"
 }, {
 	"Title": "Stranger Than Fiction *",
 	"Year": "2006",
@@ -397,7 +397,7 @@ const watchlistData = [{
 	"imdbRating": "7.5",
 	"imdbID": "tt0420223",
 	"Type": "movie",
-	"DateCompleted":"5/2/21"
+	"DateCompleted": "5/2/21"
 }, {
 	"Title": "Made You Look",
 	"Year": "2015",
@@ -409,7 +409,7 @@ const watchlistData = [{
 	"imdbRating": "7.7",
 	"imdbID": "tt3996014",
 	"Type": "movie",
-	"DateCompleted":"5/4/21"
+	"DateCompleted": "5/4/21"
 }, {
 	"Title": "Thunder Force",
 	"Year": "2021",
@@ -419,9 +419,9 @@ const watchlistData = [{
 	"Genre": "Action, Adventure, Comedy",
 	"Director": "Ben Falcone",
 	"imdbRating": "4.4",
-    "imdbID": "tt10121392",
+	"imdbID": "tt10121392",
 	"Type": "movie",
-	"DateCompleted":"5/5/21"
+	"DateCompleted": "5/5/21"
 }, {
 	"Title": "Demon Slayer: Mugen Train",
 	"Year": "2020",
@@ -433,7 +433,7 @@ const watchlistData = [{
 	"imdbRating": "8.3",
 	"imdbID": "tt11032374",
 	"Type": "movie",
-	"DateCompleted":"5/7/21"
+	"DateCompleted": "5/7/21"
 }, {
 	"Title": "Jupiter's Legacy",
 	"Year": "2021",
@@ -446,8 +446,8 @@ const watchlistData = [{
 	"imdbID": "tt5774002",
 	"Type": "series",
 	"totalSeasons": "1",
-	"DateCompleted":"5/8/21",
-    "seasonsWatched": "1"
+	"DateCompleted": "5/8/21",
+	"seasonsWatched": "1"
 }, {
 	"Title": "Little Miss Sumo",
 	"Year": "2018",
@@ -459,7 +459,7 @@ const watchlistData = [{
 	"imdbRating": "6.6",
 	"imdbID": "tt9195844",
 	"Type": "movie",
-	"DateCompleted":"5/15/21"
+	"DateCompleted": "5/15/21"
 }, {
 	"Title": "Ladies First",
 	"Year": "2017",
@@ -471,7 +471,7 @@ const watchlistData = [{
 	"imdbRating": "7.2",
 	"imdbID": "tt6896078",
 	"Type": "movie",
-	"DateCompleted":"5/15/21"
+	"DateCompleted": "5/15/21"
 }, {
 	"Title": "Nadiya Bakes",
 	"Year": "2020–",
@@ -484,8 +484,8 @@ const watchlistData = [{
 	"imdbID": "tt11714872",
 	"Type": "series",
 	"totalSeasons": "1",
-	"DateCompleted":"5/15/21",
-    "seasonsWatched": "1"
+	"DateCompleted": "5/15/21",
+	"seasonsWatched": "1"
 }, {
 	"Title": "Ramen Heads",
 	"Year": "2017",
@@ -497,7 +497,7 @@ const watchlistData = [{
 	"imdbRating": "7.1",
 	"imdbID": "tt6764122",
 	"Type": "movie",
-	"DateCompleted":"5/16/21"
+	"DateCompleted": "5/16/21"
 }, {
 	"Title": "Castlevania",
 	"Year": "2017–2021",
@@ -510,8 +510,8 @@ const watchlistData = [{
 	"imdbID": "tt6517102",
 	"Type": "series",
 	"totalSeasons": "4",
-	"DateCompleted":"5/18/21",
-    "seasonsWatched": "4"
+	"DateCompleted": "5/18/21",
+	"seasonsWatched": "4"
 }, {
 	"Title": "Ottolenghi and the Cakes of Versailles",
 	"Year": "2020",
@@ -523,7 +523,7 @@ const watchlistData = [{
 	"imdbRating": "6.1",
 	"imdbID": "tt11656800",
 	"Type": "movie",
-	"DateCompleted":"5/21/21"
+	"DateCompleted": "5/21/21"
 }, {
 	"Title": "The Mitchells vs the Machines",
 	"Year": "2021",
@@ -535,7 +535,7 @@ const watchlistData = [{
 	"imdbRating": "7.7",
 	"imdbID": "tt7979580",
 	"Type": "movie",
-	"DateCompleted":"5/23/21"
+	"DateCompleted": "5/23/21"
 }, {
 	"Title": "Eurovision Song Contest: The Story of Fire Saga",
 	"Year": "2020",
@@ -547,7 +547,7 @@ const watchlistData = [{
 	"imdbRating": "6.5",
 	"imdbID": "tt8580274",
 	"Type": "movie",
-	"DateCompleted":"5/30/21"
+	"DateCompleted": "5/30/21"
 }, {
 	"Title": "Killing Eve",
 	"Year": "2018–2022",
@@ -560,20 +560,20 @@ const watchlistData = [{
 	"imdbID": "tt7016936",
 	"Type": "series",
 	"totalSeasons": "4",
-	"DateCompleted":"6/4/21",
-    "seasonsWatched": "1,2,3"
+	"DateCompleted": "6/4/21",
+	"seasonsWatched": "1,2,3"
 }, {
 	"Title": "The Fifth Element *",
 	"Year": "1997",
 	"Rated": "PG-13",
 	"Released": "09 May 1997",
 	"Runtime": "126 min",
-	"Genre": "Action Adventure Sci-Fi",
+	"Genre": "Action, Adventure, Sci-Fi",
 	"Director": "Luc Besson",
 	"imdbRating": "7.7",
 	"imdbID": "tt0119116",
 	"Type": "movie",
-	"DateCompleted":"6/11/21"
+	"DateCompleted": "6/11/21"
 }, {
 	"Title": "Eater's Guide to the World",
 	"Year": "2020–",
@@ -586,8 +586,8 @@ const watchlistData = [{
 	"imdbID": "tt10276462",
 	"Type": "series",
 	"totalSeasons": "1",
-	"DateCompleted":"6/11/21",
-    "seasonsWatched": "1"
+	"DateCompleted": "6/11/21",
+	"seasonsWatched": "1"
 }, {
 	"Title": "Lupin",
 	"Year": "2021–",
@@ -600,8 +600,8 @@ const watchlistData = [{
 	"imdbID": "tt2531336",
 	"Type": "series",
 	"totalSeasons": "2",
-	"DateCompleted":"6/12/21",
-    "seasonsWatched": "2"
+	"DateCompleted": "6/12/21",
+	"seasonsWatched": "2"
 }, {
 	"Title": "Coded Bias",
 	"Year": "2020",
@@ -613,7 +613,7 @@ const watchlistData = [{
 	"imdbRating": "6.7",
 	"imdbID": "tt11394170",
 	"Type": "movie",
-	"DateCompleted":"6/17/21"
+	"DateCompleted": "6/17/21"
 }, {
 	"Title": "Inside",
 	"Year": "2021",
@@ -625,7 +625,7 @@ const watchlistData = [{
 	"imdbRating": "8.6",
 	"imdbID": "tt14544192",
 	"Type": "movie",
-	"DateCompleted":"6/19/21"
+	"DateCompleted": "6/19/21"
 }, {
 	"Title": "Cowboy Bebop",
 	"Year": "1998–1999",
@@ -638,7 +638,7 @@ const watchlistData = [{
 	"imdbID": "tt0213338",
 	"Type": "series",
 	"totalSeasons": "1",
-	"DateCompleted":"6/19/21"
+	"DateCompleted": "6/19/21"
 }, {
 	"Title": "Lucifer",
 	"Year": "2016–2021",
@@ -651,8 +651,8 @@ const watchlistData = [{
 	"imdbID": "tt4052886",
 	"Type": "series",
 	"totalSeasons": "6",
-	"DateCompleted":"6/24/21",
-    "seasonsWatched": "5 part 2"
+	"DateCompleted": "6/24/21",
+	"seasonsWatched": "5 part 2"
 }, {
 	"Title": "Space Sweepers",
 	"Year": "2021",
@@ -664,7 +664,7 @@ const watchlistData = [{
 	"imdbRating": "6.6",
 	"imdbID": "tt12838766",
 	"Type": "movie",
-	"DateCompleted":"7/4/21"
+	"DateCompleted": "7/4/21"
 }, {
 	"Title": "Invincible",
 	"Year": "2021–",
@@ -677,8 +677,8 @@ const watchlistData = [{
 	"imdbID": "tt6741278",
 	"Type": "series",
 	"totalSeasons": "2",
-	"DateCompleted":"7/23/21",
-    "seasonsWatched": "1"
+	"DateCompleted": "7/23/21",
+	"seasonsWatched": "1"
 }, {
 	"Title": "Golden: The Journey of USA's Elite Gymnasts",
 	"Year": "2021–",
@@ -691,8 +691,8 @@ const watchlistData = [{
 	"imdbID": "tt14536364",
 	"Type": "series",
 	"totalSeasons": "N/A",
-	"DateCompleted":"7/26/21",
-    "seasonsWatched": "1"
+	"DateCompleted": "7/26/21",
+	"seasonsWatched": "1"
 }, {
 	"Title": "Ghost in the Shell",
 	"Year": "1995",
@@ -704,7 +704,7 @@ const watchlistData = [{
 	"imdbRating": "8.0",
 	"imdbID": "tt0113568",
 	"Type": "movie",
-	"DateCompleted":"7/31/21"
+	"DateCompleted": "7/31/21"
 }, {
 	"Title": "The Suicide Squad",
 	"Year": "2021",
@@ -716,7 +716,7 @@ const watchlistData = [{
 	"imdbRating": "7.2",
 	"imdbID": "tt6334354",
 	"Type": "movie",
-	"DateCompleted":"8/6/21"
+	"DateCompleted": "8/6/21"
 }, {
 	"Title": "The Man in the High Castle",
 	"Year": "2015–2019",
@@ -729,8 +729,8 @@ const watchlistData = [{
 	"imdbID": "tt1740299",
 	"Type": "series",
 	"totalSeasons": "4",
-	"DateCompleted":"8/8/21",
-    "seasonsWatched": "4"
+	"DateCompleted": "8/8/21",
+	"seasonsWatched": "4"
 }, {
 	"Title": "Making the Cut",
 	"Year": "2020–",
@@ -743,8 +743,8 @@ const watchlistData = [{
 	"imdbID": "tt8962394",
 	"Type": "series",
 	"totalSeasons": "2",
-	"DateCompleted":"8/12/21",
-    "seasonsWatched": "1,2"
+	"DateCompleted": "8/12/21",
+	"seasonsWatched": "1,2"
 }, {
 	"Title": "Blade Runner 2049",
 	"Year": "2017",
@@ -756,7 +756,7 @@ const watchlistData = [{
 	"imdbRating": "8.0",
 	"imdbID": "tt1856101",
 	"Type": "movie",
-	"DateCompleted":"8/13/21"
+	"DateCompleted": "8/13/21"
 }, {
 	"Title": "Devs",
 	"Year": "2020",
@@ -768,8 +768,8 @@ const watchlistData = [{
 	"imdbRating": "7.7",
 	"Type": "series",
 	"totalSeasons": "1",
-	"DateCompleted":"8/17/21",
-    "seasonsWatched": "1"
+	"DateCompleted": "8/17/21",
+	"seasonsWatched": "1"
 }, {
 	"Title": "The Secret Life of Walter Mitty",
 	"Year": "2013",
@@ -781,7 +781,7 @@ const watchlistData = [{
 	"imdbRating": "7.3",
 	"imdbID": "tt0359950",
 	"Type": "movie",
-	"DateCompleted":"8/20/21"
+	"DateCompleted": "8/20/21"
 }, {
 	"Title": "Black Widow",
 	"Year": "2021",
@@ -793,7 +793,7 @@ const watchlistData = [{
 	"imdbRating": "6.7",
 	"imdbID": "tt3480822",
 	"Type": "movie",
-	"DateCompleted":"8/22/21"
+	"DateCompleted": "8/22/21"
 }, {
 	"Title": "Motherland: Fort Salem",
 	"Year": "2020–2022",
@@ -806,8 +806,8 @@ const watchlistData = [{
 	"imdbID": "tt9900092",
 	"Type": "series",
 	"totalSeasons": "2",
-	"DateCompleted":"8/26/21",
-    "seasonsWatched": "1,2"
+	"DateCompleted": "8/26/21",
+	"seasonsWatched": "1,2"
 }, {
 	"Title": "The Witcher: Nightmare of the Wolf",
 	"Year": "2021",
@@ -819,7 +819,7 @@ const watchlistData = [{
 	"imdbRating": "7.3",
 	"imdbID": "tt11657662",
 	"Type": "movie",
-	"DateCompleted":"8/29/21"
+	"DateCompleted": "8/29/21"
 }, {
 	"Title": "Loki",
 	"Year": "2021–",
@@ -832,8 +832,8 @@ const watchlistData = [{
 	"imdbID": "tt9140554",
 	"Type": "series",
 	"totalSeasons": "2",
-	"DateCompleted":"9/2/21",
-    "seasonsWatched": "1"
+	"DateCompleted": "9/2/21",
+	"seasonsWatched": "1"
 }, {
 	"Title": "Superfast! *",
 	"Year": "2015",
@@ -845,7 +845,7 @@ const watchlistData = [{
 	"imdbRating": "4.1",
 	"imdbID": "tt2933474",
 	"Type": "movie",
-	"DateCompleted":"9/4/21"
+	"DateCompleted": "9/4/21"
 }, {
 	"Title": "Beowulf *",
 	"Year": "2007",
@@ -857,19 +857,19 @@ const watchlistData = [{
 	"imdbRating": "6.2",
 	"imdbID": "tt0442933",
 	"Type": "movie",
-	"DateCompleted":"9/11/21"
+	"DateCompleted": "9/11/21"
 }, {
-    "Title": "Captain America: The First Avenger *",
-    "Year": "2011",
-    "Rated": "PG-13",
-    "Released": "22 Jul 2011",
-    "Runtime": "124 min",
-    "Genre": "Action, Adventure, Sci-Fi",
-    "Director": "Joe Johnston",
-    "imdbRating": "6.9",
-    "imdbID": "tt0458339",
-    "Type": "movie",
-    "DateCompleted":"9/10/21"
+	"Title": "Captain America: The First Avenger *",
+	"Year": "2011",
+	"Rated": "PG-13",
+	"Released": "22 Jul 2011",
+	"Runtime": "124 min",
+	"Genre": "Action, Adventure, Sci-Fi",
+	"Director": "Joe Johnston",
+	"imdbRating": "6.9",
+	"imdbID": "tt0458339",
+	"Type": "movie",
+	"DateCompleted": "9/10/21"
 }, {
 	"Title": "Captain America: The Winter Soldier *",
 	"Year": "2014",
@@ -881,7 +881,7 @@ const watchlistData = [{
 	"imdbRating": "7.7",
 	"imdbID": "tt1843866",
 	"Type": "movie",
-	"DateCompleted":"9/12/21"
+	"DateCompleted": "9/12/21"
 }, {
 	"Title": "Thor *",
 	"Year": "2011",
@@ -893,7 +893,7 @@ const watchlistData = [{
 	"imdbRating": "7.0",
 	"imdbID": "tt0800369",
 	"Type": "movie",
-	"DateCompleted":"9/17/21"
+	"DateCompleted": "9/17/21"
 }, {
 	"Title": "The Avengers *",
 	"Year": "2012",
@@ -906,7 +906,7 @@ const watchlistData = [{
 	"imdbID": "tt0848228",
 	"Type": "movie",
 	"DVD": "25 Sep 2012",
-	"DateCompleted":"9/17/21"
+	"DateCompleted": "9/17/21"
 }, {
 	"Title": "Doctor Strange *",
 	"Year": "2016",
@@ -918,7 +918,7 @@ const watchlistData = [{
 	"imdbRating": "7.5",
 	"imdbID": "tt1211837",
 	"Type": "movie",
-	"DateCompleted":"9/19/21"
+	"DateCompleted": "9/19/21"
 }, {
 	"Title": "Guardians of the Galaxy *",
 	"Year": "2014",
@@ -930,7 +930,7 @@ const watchlistData = [{
 	"imdbRating": "8.0",
 	"imdbID": "tt2015381",
 	"Type": "movie",
-	"DateCompleted":"9/19/21"
+	"DateCompleted": "9/19/21"
 }, {
 	"Title": "Captain America: Civil War *",
 	"Year": "2016",
@@ -942,7 +942,7 @@ const watchlistData = [{
 	"imdbRating": "7.8",
 	"imdbID": "tt3498820",
 	"Type": "movie",
-	"DateCompleted":"9/25/21"
+	"DateCompleted": "9/25/21"
 }, {
 	"Title": "What We Do in the Shadows *",
 	"Year": "2014",
@@ -954,7 +954,7 @@ const watchlistData = [{
 	"imdbRating": "7.7",
 	"imdbID": "tt3416742",
 	"Type": "movie",
-	"DateCompleted":"9/25/21"
+	"DateCompleted": "9/25/21"
 }, {
 	"Title": "Star Wars: Visions",
 	"Year": "2021–",
@@ -967,8 +967,8 @@ const watchlistData = [{
 	"imdbID": "tt13622982",
 	"Type": "series",
 	"totalSeasons": "1",
-	"DateCompleted":"9/25/21",
-    "seasonsWatched": "1"
+	"DateCompleted": "9/25/21",
+	"seasonsWatched": "1"
 }, {
 	"Title": "The Haunting of Hill House",
 	"Year": "2018",
@@ -981,7 +981,7 @@ const watchlistData = [{
 	"imdbID": "tt6763664",
 	"Type": "series",
 	"totalSeasons": "1",
-	"DateCompleted":"10/2/21"
+	"DateCompleted": "10/2/21"
 }, {
 	"Title": "Lucifer",
 	"Year": "2016–2021",
@@ -994,8 +994,8 @@ const watchlistData = [{
 	"imdbID": "tt4052886",
 	"Type": "series",
 	"totalSeasons": "6",
-	"DateCompleted":"10/3/21",
-    "seasonsWatched": "6"
+	"DateCompleted": "10/3/21",
+	"seasonsWatched": "6"
 }, {
 	"Title": "Cruella",
 	"Year": "2021",
@@ -1007,7 +1007,7 @@ const watchlistData = [{
 	"imdbRating": "7.4",
 	"imdbID": "tt3228774",
 	"Type": "movie",
-	"DateCompleted":"10/6/21"
+	"DateCompleted": "10/6/21"
 }, {
 	"Title": "What If...?",
 	"Year": "2021–",
@@ -1020,8 +1020,8 @@ const watchlistData = [{
 	"imdbID": "tt10168312",
 	"Type": "series",
 	"totalSeasons": "1",
-	"DateCompleted":"10/7/21",
-    "seasonsWatched": "1"
+	"DateCompleted": "10/7/21",
+	"seasonsWatched": "1"
 }, {
 	"Title": "The Defeated",
 	"Year": "2020–",
@@ -1034,8 +1034,8 @@ const watchlistData = [{
 	"imdbID": "tt8879894",
 	"Type": "series",
 	"totalSeasons": "1",
-	"DateCompleted":"10/9/21",
-    "seasonsWatched": "1"
+	"DateCompleted": "10/9/21",
+	"seasonsWatched": "1"
 }, {
 	"Title": "Radium Girls",
 	"Year": "2018",
@@ -1047,7 +1047,7 @@ const watchlistData = [{
 	"imdbRating": "6.3",
 	"imdbID": "tt6317180",
 	"Type": "movie",
-	"DateCompleted":"10/10/21"
+	"DateCompleted": "10/10/21"
 }, {
 	"Title": "Thor: Ragnarok *",
 	"Year": "2017",
@@ -1059,7 +1059,7 @@ const watchlistData = [{
 	"imdbRating": "7.9",
 	"imdbID": "tt3501632",
 	"Type": "movie",
-	"DateCompleted":"10/13/21"
+	"DateCompleted": "10/13/21"
 }, {
 	"Title": "Dune",
 	"Year": "2021",
@@ -1071,7 +1071,7 @@ const watchlistData = [{
 	"imdbRating": "8.1",
 	"imdbID": "tt1160419",
 	"Type": "movie",
-	"DateCompleted":"10/22/21"
+	"DateCompleted": "10/22/21"
 }, {
 	"Title": "Halloweentown *",
 	"Year": "1998",
@@ -1083,7 +1083,7 @@ const watchlistData = [{
 	"imdbRating": "6.7",
 	"imdbID": "tt0173886",
 	"Type": "movie",
-	"DateCompleted":"10/23/21"
+	"DateCompleted": "10/23/21"
 }, {
 	"Title": "The Haunting of Bly Manor",
 	"Year": "2020",
@@ -1096,8 +1096,8 @@ const watchlistData = [{
 	"imdbID": "tt10970552",
 	"Type": "series",
 	"totalSeasons": "1",
-	"DateCompleted":"10/24/21",
-    "seasonsWatched": "1"
+	"DateCompleted": "10/24/21",
+	"seasonsWatched": "1"
 }, {
 	"Title": "Midnight Mass",
 	"Year": "2021",
@@ -1110,8 +1110,8 @@ const watchlistData = [{
 	"imdbID": "tt10574558",
 	"Type": "series",
 	"totalSeasons": "1",
-	"DateCompleted":"10/28/21",
-    "seasonsWatched": "1"
+	"DateCompleted": "10/28/21",
+	"seasonsWatched": "1"
 }, {
 	"Title": "Hocus Pocus *",
 	"Year": "1993",
@@ -1123,21 +1123,21 @@ const watchlistData = [{
 	"imdbRating": "6.9",
 	"imdbID": "tt0107120",
 	"Type": "movie",
-	"DateCompleted":"10/31/21"
+	"DateCompleted": "10/31/21"
 }, {
 	"Title": "What We Do in the Shadows",
 	"Year": "2019–",
 	"Rated": "TV-MA",
 	"Released ": "27 Mar 2019",
 	"Runtime ": "30 min",
-	"Genre ": "Comedy, Fantasy, Horror",
-	"Director ": "Jemaine Clement Taika Waititi",
+	"Genre": "Comedy, Fantasy, Horror",
+	"Director ": "Jemaine Clement, Taika Waititi",
 	"imdbRating ": "8.6",
 	"imdbID ": "tt7908628",
 	"Type ": "series",
 	"totalSeasons ": "4",
-	"DateCompleted":"10/31/21",
-    "seasonsWatched": "3"
+	"DateCompleted": "10/31/21",
+	"seasonsWatched": "3"
 }, {
 	"Title": "Holes *",
 	"Year": "2003",
@@ -1149,7 +1149,7 @@ const watchlistData = [{
 	"imdbRating": "7.0",
 	"imdbID": "tt0311289",
 	"Type": "movie",
-	"DateCompleted":"11/6/21"
+	"DateCompleted": "11/6/21"
 }, {
 	"Title": "Call the Midwife",
 	"Year": "2012–",
@@ -1162,8 +1162,8 @@ const watchlistData = [{
 	"imdbID": "tt1983079",
 	"Type": "series",
 	"totalSeasons": "11",
-	"DateCompleted":"11/7/21",
-    "seasonsWatched": "1,2,3,4,5,6,7,8,9"
+	"DateCompleted": "11/7/21",
+	"seasonsWatched": "1,2,3,4,5,6,7,8,9"
 }, {
 	"Title": "Layer Cake",
 	"Year": "2004",
@@ -1175,7 +1175,7 @@ const watchlistData = [{
 	"imdbRating": "7.3",
 	"imdbID": "tt0375912",
 	"Type": "movie",
-	"DateCompleted":"11/11/21"
+	"DateCompleted": "11/11/21"
 }, {
 	"Title": "Shang-Chi and the Legend of the Ten Rings",
 	"Year": "2021",
@@ -1187,7 +1187,7 @@ const watchlistData = [{
 	"imdbRating": "7.5",
 	"imdbID": "tt9376612",
 	"Type": "movie",
-	"DateCompleted":"11/13/21"
+	"DateCompleted": "11/13/21"
 }, {
 	"Title": "Eternals",
 	"Year": "2021",
@@ -1199,7 +1199,7 @@ const watchlistData = [{
 	"imdbRating": "6.4",
 	"imdbID": "tt9032400",
 	"Type": "movie",
-	"DateCompleted":"11/13/21"
+	"DateCompleted": "11/13/21"
 }, {
 	"Title": "Yellowstone",
 	"Year": "2018–",
@@ -1212,8 +1212,8 @@ const watchlistData = [{
 	"imdbID": "tt4236770",
 	"Type": "series",
 	"totalSeasons": "5",
-	"DateCompleted":"11/11/21",
-    "seasonsWatched": "1,2,3"
+	"DateCompleted": "11/11/21",
+	"seasonsWatched": "1,2,3"
 }, {
 	"Title": "Cowboy Bebop",
 	"Year": "2021",
@@ -1226,22 +1226,22 @@ const watchlistData = [{
 	"imdbID": "tt1267295",
 	"Type": "series",
 	"totalSeasons": "1",
-	"DateCompleted":"11/20/21",
-    "seasonsWatched": "1"
+	"DateCompleted": "11/20/21",
+	"seasonsWatched": "1"
 }, {
-    "Title": "The Great British Baking Show",
-    "Year": "2010–",
-    "Rated": "TV-PG",
-    "Released": "27 Dec 2014",
-    "Runtime": "60 min",
-    "Genre": "Reality-TV",
-    "Director": "N/A",
-    "imdbRating": "8.6",
-    "imdbID": "tt1877368",
-    "Type": "series",
-    "totalSeasons": "12",
-    "DateCompleted":"11/26/21",
-    "seasonsWatched": "9"
+	"Title": "The Great British Baking Show",
+	"Year": "2010–",
+	"Rated": "TV-PG",
+	"Released": "27 Dec 2014",
+	"Runtime": "60 min",
+	"Genre": "Reality-TV",
+	"Director": "N/A",
+	"imdbRating": "8.6",
+	"imdbID": "tt1877368",
+	"Type": "series",
+	"totalSeasons": "12",
+	"DateCompleted": "11/26/21",
+	"seasonsWatched": "9"
 }, {
 	"Title": "Reservation Dogs",
 	"Year": "2021–",
@@ -1254,8 +1254,8 @@ const watchlistData = [{
 	"imdbID": "tt13623580",
 	"Type": "series",
 	"totalSeasons": "2",
-	"DateCompleted":"12/4/21",
-    "seasonsWatched": "1"
+	"DateCompleted": "12/4/21",
+	"seasonsWatched": "1"
 }, {
 	"Title": "Arcane",
 	"Year": "2021–",
@@ -1268,8 +1268,8 @@ const watchlistData = [{
 	"imdbID": "tt11126994",
 	"Type": "series",
 	"totalSeasons": "2",
-	"DateCompleted":"12/8/21",
-    "seasonsWatched": "1"
+	"DateCompleted": "12/8/21",
+	"seasonsWatched": "1"
 }, {
 	"Title": "The Harder They Fall",
 	"Year": "2021",
@@ -1281,7 +1281,7 @@ const watchlistData = [{
 	"imdbRating": "6.6",
 	"imdbID": "tt10696784",
 	"Type": "movie",
-	"DateCompleted":"12/10/21"
+	"DateCompleted": "12/10/21"
 }, {
 	"Title": "The Matrix *",
 	"Year": "1999",
@@ -1291,9 +1291,9 @@ const watchlistData = [{
 	"Genre": "Action, Sci-Fi",
 	"Director": "Lana Wachowski Lilly Wachowski",
 	"imdbRating": "8.7",
-    "imdbID": "tt0133093",
+	"imdbID": "tt0133093",
 	"Type": "movie",
-	"DateCompleted":"12/11/21"
+	"DateCompleted": "12/11/21"
 }, {
 	"Title": "The Witcher",
 	"Year": "2019–",
@@ -1306,8 +1306,8 @@ const watchlistData = [{
 	"imdbID": "tt5180504",
 	"Type": "series",
 	"totalSeasons": "2",
-	"DateCompleted":"12/18/21",
-    "seasonsWatched": "2"
+	"DateCompleted": "12/18/21",
+	"seasonsWatched": "2"
 }, {
 	"Title": "Hawkeye",
 	"Year": "2021",
@@ -1320,8 +1320,8 @@ const watchlistData = [{
 	"imdbID": "tt10160804",
 	"Type": "series",
 	"totalSeasons": "1",
-	"DateCompleted":"12/22/21",
-    "seasonsWatched": "1"
+	"DateCompleted": "12/22/21",
+	"seasonsWatched": "1"
 }, {
 	"Title": "A Merry Friggin' Christmas",
 	"Year": "2014",
@@ -1333,7 +1333,7 @@ const watchlistData = [{
 	"imdbRating": "5.2",
 	"imdbID": "tt0910885",
 	"Type": "movie",
-	"DateCompleted":"12/22/21"
+	"DateCompleted": "12/22/21"
 }, {
 	"Title": "Belfast",
 	"Year": "2021",
@@ -1345,7 +1345,7 @@ const watchlistData = [{
 	"imdbRating": "7.3",
 	"imdbID": "tt12789558",
 	"Type": "movie",
-	"DateCompleted":"12/23/21"
+	"DateCompleted": "12/23/21"
 }, {
 	"Title": "The Power of the Dog",
 	"Year": "2021",
@@ -1357,7 +1357,7 @@ const watchlistData = [{
 	"imdbRating": "6.9",
 	"imdbID": "tt10293406",
 	"Type": "movie",
-	"DateCompleted":"12/27/21"
+	"DateCompleted": "12/27/21"
 }, {
 	"Title": "Encanto",
 	"Year": "2021",
@@ -1369,7 +1369,7 @@ const watchlistData = [{
 	"imdbRating": "7.3",
 	"imdbID": "tt2953050",
 	"Type": "movie",
-	"DateCompleted":"12/28/21"
+	"DateCompleted": "12/28/21"
 }, {
 	"Title": "Letterkenny",
 	"Year": "2016–",
@@ -1382,8 +1382,8 @@ const watchlistData = [{
 	"imdbID": "tt4647692",
 	"Type": "series",
 	"totalSeasons": "10",
-	"DateCompleted":"12/29/21",
-    "seasonsWatched": "10"
+	"DateCompleted": "12/29/21",
+	"seasonsWatched": "10"
 }, {
 	"Title": "Luca",
 	"Year": "2021",
@@ -1395,7 +1395,7 @@ const watchlistData = [{
 	"imdbRating": "7.5",
 	"imdbID": "tt12801262",
 	"Type": "movie",
-	"DateCompleted":"12/29/21"
+	"DateCompleted": "12/29/21"
 }, {
 	"Title": "Coco",
 	"Year": "2017",
@@ -1407,21 +1407,21 @@ const watchlistData = [{
 	"imdbRating": "8.4",
 	"imdbID": "tt2380307",
 	"Type": "movie",
-	"DateCompleted":"12/30/21"
+	"DateCompleted": "12/30/21"
 }, {
-    "Title": "The Great",
-    "Year": "2020–",
-    "Rated": "TV-MA",
-    "Released": "15 May 2020",
-    "Runtime": "45 min",
-    "Genre": "Biography, Comedy, Drama",
-    "Director": "N/A",
-    "imdbRating": "8.2",
-    "imdbID": "tt2235759",
-    "Type": "series",
-    "totalSeasons": "2",
-    "DateCompleted":"1/13/22",
-    "seasonsWatched": "2"
+	"Title": "The Great",
+	"Year": "2020–",
+	"Rated": "TV-MA",
+	"Released": "15 May 2020",
+	"Runtime": "45 min",
+	"Genre": "Biography, Comedy, Drama",
+	"Director": "N/A",
+	"imdbRating": "8.2",
+	"imdbID": "tt2235759",
+	"Type": "series",
+	"totalSeasons": "2",
+	"DateCompleted": "1/13/22",
+	"seasonsWatched": "2"
 }, {
 	"Title": "The Expanse",
 	"Year": "2015–",
@@ -1434,8 +1434,8 @@ const watchlistData = [{
 	"imdbID": "tt3230854",
 	"Type": "series",
 	"totalSeasons": "6",
-	"DateCompleted":"1/21/22",
-    "seasonsWatched": "6"
+	"DateCompleted": "1/21/22",
+	"seasonsWatched": "6"
 }, {
 	"Title": "The Wheel of Time",
 	"Year": "2021–",
@@ -1448,8 +1448,8 @@ const watchlistData = [{
 	"imdbID": "tt7462410",
 	"Type": "series",
 	"totalSeasons": "2",
-	"DateCompleted":"1/25/22",
-    "seasonsWatched": "1"
+	"DateCompleted": "1/25/22",
+	"seasonsWatched": "1"
 }, {
 	"Title": "Ozark",
 	"Year": "2017–2022",
@@ -1462,8 +1462,8 @@ const watchlistData = [{
 	"imdbID": "tt5071412",
 	"Type": "series",
 	"totalSeasons": "4",
-	"DateCompleted":"2/7/22",
-    "seasonsWatched": "4 part 1"
+	"DateCompleted": "2/7/22",
+	"seasonsWatched": "4 part 1"
 }]
 
 export default watchlistData;
