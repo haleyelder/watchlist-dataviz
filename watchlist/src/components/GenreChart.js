@@ -32,7 +32,7 @@ export default class GenreChart extends PureComponent {
   render() {
     return (
 
-     <BarChart width={730} height={250} data={newListGenre}>
+     <BarChart width={900} height={500} data={newListGenre}>
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="0" />
 
@@ -41,27 +41,27 @@ export default class GenreChart extends PureComponent {
         <Legend />
         <Bar dataKey="Action" fill="#8884d8" />
         <Bar dataKey="Adventure" fill="#82ca9d" />
-        <Bar dataKey="Animation" fill="#8884d8" />
-        <Bar dataKey="Biography" fill="#82ca9d" />
+        <Bar dataKey="Animation" fill="red" />
+        <Bar dataKey="Biography" fill="orange" />
         <Bar dataKey="Comedy" fill="teal"/>
-        <Bar dataKey="Crime" fill="#8884d8" />
-        <Bar dataKey="Documentary" fill="#82ca9d" />
+        <Bar dataKey="Crime" fill="gray" />
+        <Bar dataKey="Documentary" fill="purple" />
         <Bar dataKey="Drama" fill="teal"/>
-        <Bar dataKey="Family" fill="teal"/>
-        <Bar dataKey="Fantasy" fill="#8884d8" />
-        <Bar dataKey="Game-Show" fill="#82ca9d" />
-        <Bar dataKey="History" fill="teal"/>
-        <Bar dataKey="Horror" fill="#8884d8" />
-        <Bar dataKey="Music" fill="#82ca9d" />
-        <Bar dataKey="Musical" fill="teal"/>
-        <Bar dataKey="Mystery" fill="#8884d8" />
-        <Bar dataKey="Reality-TV" fill="#82ca9d" />
-        <Bar dataKey="Romance" fill="teal"/>
-        <Bar dataKey="Sci-Fi" fill="#8884d8" />
-        <Bar dataKey="Short" fill="#82ca9d" />
-        <Bar dataKey="Sport" fill="teal"/>
-        <Bar dataKey="Thriller" fill="#8884d8" />
-        <Bar dataKey="Western" fill="#82ca9d" />
+        <Bar dataKey="Family" fill="indigo"/>
+        <Bar dataKey="Fantasy" fill="pink" />
+        <Bar dataKey="Game-Show" fill="goldenrod" />
+        <Bar dataKey="History" fill="lightblue"/>
+        <Bar dataKey="Horror" fill="green" />
+        <Bar dataKey="Music" fill="turquoise" />
+        <Bar dataKey="Musical" fill="orange"/>
+        <Bar dataKey="Mystery" fill="maroon" />
+        <Bar dataKey="Reality-TV" fill="lightgray" />
+        <Bar dataKey="Romance" fill="blueviolet"/>
+        <Bar dataKey="Sci-Fi" fill="brown" />
+        <Bar dataKey="Short" fill="periwinkle" />
+        <Bar dataKey="Sport" fill="springgreen"/>
+        <Bar dataKey="Thriller" fill="darkgreen" />
+        <Bar dataKey="Western" fill="black" />
       </BarChart>
     );
   }

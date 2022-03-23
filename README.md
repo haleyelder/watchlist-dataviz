@@ -24,3 +24,16 @@ TABS (vertial left sidebar with bootstrap):
 - [ ] dot plot chart for over time (x axis is time/date, y is imdb rating and/or year released) (https://observablehq.com/@d3/dot-plot or https://observablehq.com/@d3/scatterplot), hovering dot displays title and date watched (maybe link to spot on table?)
 - [ ] bubble chart groupings(https://observablehq.com/@d3/zoomable-circle-packing or https://observablehq.com/@d3/bubble-chart): genres
 - optional: all in one data? inner radial is date (https://observablehq.com/@d3/radial-stacked-bar-chart-ii)
+
+-------------------
+Branding
+- dark blue: #00335A
+- dark purple: #4A004A
+- mint blue: #A6FFFF
+- light green?: #DAFF89
+
+Font Family:
+- description? Arvo and Roboto
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Roboto&display=swap" rel="stylesheet">
