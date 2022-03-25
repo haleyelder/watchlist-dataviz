@@ -5,21 +5,42 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #00335A;
+  color: lightblue;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  color: #A6FFFF;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+  border-bottom: 2px solid #A6FFFF;
+}
+
+thead {
+  background-color: #350135;
 }
 
 th {
-  border: 2px solid black
+  text-align: center;
+  border: 1px solid rgb(136, 3, 114)
 }
 
 tr:nth-child(even) {
-  background-color: lightblue;
+  background-color: #02477b;
 }
 
 td {
-  border: 1px solid darkgrey;
+  border: 1px solid slategray;
+  padding: 5px;
+  text-align: center;
 }
+
+
+/* 
+- dark blue: #00335A
+- dark purple: #350135
+- mint blue: #A6FFFF
+- light green?: #DAFF89 */

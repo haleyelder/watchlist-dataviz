@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react';
 import { ScatterChart, ZAxis, Scatter, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import watchlistData from '../watchlist-main';
 
-export default class ScatterplotChart extends PureComponent {
+export default class RatingsScatterplotChart extends PureComponent {
 
   render() {
     return (

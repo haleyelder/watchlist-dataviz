@@ -1,7 +1,6 @@
-import React from 'react'
+import React, { PureComponent } from 'react';
 
-
-class Table extends React.Component {
+export default class RatingsScatterplotChart extends PureComponent {
     render() {
         const { watchlistData } = this.props;
 
@@ -14,7 +13,7 @@ class Table extends React.Component {
             watchlistData.length > 0 && (   
                 <table>
                     <thead>
-                        <tr >
+                        <tr>
                             <th>ID</th>
                             <th>Date Watched/Completed</th>
                             <th>Title</th>
@@ -31,7 +30,7 @@ class Table extends React.Component {
                             <tr>
                                 <td key={id}>{id.id}</td>
                                 <td>{id.DateCompleted}</td>
-                                <td><a href={`https://www.imdb.com/title/${id.imdbID}/`}>{id.Title}</a></td>
+                                <td><a href={`https://www.imdb.com/title/${id.imdbID}/`} target="_blank">{id.Title}</a></td>
                                 <td>{id.Type}</td>
                                 <td>{id.totalSeasons}</td>
                                 <td>{id.seasonsWatched}</td>
@@ -47,5 +46,3 @@ class Table extends React.Component {
         )
     }
 }
-
-export default Table;

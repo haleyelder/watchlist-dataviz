@@ -1,6 +1,6 @@
-import ScatterplotChart from './components/ScatterplotChart.js';
-import GenreChart from './components/GenreChart.js'
-import Table from './components/Table.js'
+import TotalListTable from './components/TotalListTable.js';
+import GenreBarChart from './components/GenreBarChart.js'
+import RatingsScatterplotChart from './components/RatingsScatterplotChart.js'
 import watchlistData from './watchlist-main.js'
 
 function App() {
@@ -14,8 +14,11 @@ function App() {
         <li> TV seasons, Total seasons = released as of march 2022, seasons watched, separated by specific season</li> 
       </ul>
 
+      <GenreBarChart/>
+      <TotalListTable watchlistData={watchlistData}/>
+      <RatingsScatterplotChart/>
 
-      <ul class="nav nav-tabs" id="myTab" role="tablist">
+     {/* <ul class="nav nav-tabs" id="myTab" role="tablist">
       <li class="nav-item">
         <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
       </li>
@@ -32,9 +35,9 @@ function App() {
     <div class="tab-content" id="myTabContent">
       <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">test description</div>
       <div class="tab-pane fade" id="table" role="tabpanel" aria-labelledby="table-tab"><Table watchlistData={watchlistData}/></div>
-      <div class="tab-pane fade" id="scatterplot" role="tabpanel" aria-labelledby="scatterplot-tab"><ScatterplotChart/></div>
+      <div class="tab-pane fade" id="scatterplot" role="tabpanel" aria-labelledby="scatterplot-tab"><RatingsScatterplotChart/></div>
       <div class="tab-pane fade" id="barchart" role="tabpanel" aria-labelledby="barchart-tab"><GenreChart/></div>
-    </div>
+    </div>  */}
       
     </div>
   );

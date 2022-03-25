@@ -28,7 +28,7 @@ const newListGenre = []
 newListGenre.push(count)
 console.log(newListGenre)
 
-export default class GenreChart extends PureComponent {
+export default class GenreBarChart extends PureComponent {
   render() {
     return (
 
