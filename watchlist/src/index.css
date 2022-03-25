@@ -38,9 +38,13 @@ td {
   text-align: center;
 }
 
+#ratings-scatterplot-chart > div > svg > g.recharts-layer.recharts-cartesian-axis.recharts-yAxis.yAxis > g > g > text,
+#ratings-scatterplot-chart > div > svg > g.recharts-layer.recharts-cartesian-axis.recharts-xAxis.xAxis > g > g > text,
+#genre-barchart > div > svg > g.recharts-layer.recharts-cartesian-axis.recharts-yAxis.yAxis > g > g > text {
+  fill:white;
+}
 
-/* 
-- dark blue: #00335A
-- dark purple: #350135
-- mint blue: #A6FFFF
-- light green?: #DAFF89 */
+#genre-barchart > div > div.recharts-tooltip-wrapper.recharts-tooltip-wrapper-right.recharts-tooltip-wrapper-top div {
+  background-color: #350135  !important;
+  border: 2px solid #A6FFFF;
+}

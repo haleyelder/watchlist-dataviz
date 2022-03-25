@@ -5,7 +5,7 @@ import watchlistData from './watchlist-main.js'
 
 function App() {
   return (
-    <div className="App">
+    <div classNameName="App">
       <h1>Table Data Watchlist</h1>
       <p>Feb 2021 - Feb 2022 watchlist </p>
       <h3>Key:</h3>
@@ -14,30 +14,33 @@ function App() {
         <li> TV seasons, Total seasons = released as of march 2022, seasons watched, separated by specific season</li> 
       </ul>
 
-      <GenreBarChart/>
-      <TotalListTable watchlistData={watchlistData}/>
-      <RatingsScatterplotChart/>
-
-     {/* <ul class="nav nav-tabs" id="myTab" role="tablist">
-      <li class="nav-item">
-        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+     <ul className="nav nav-tabs" id="myTab" role="tablist">
+      <li className="nav-item">
+        <a className="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" id="table-tab" data-toggle="tab" href="#table" role="tab" aria-controls="table" aria-selected="false">Table</a>
+      <li className="nav-item">
+        <a className="nav-link" id="table-tab" data-toggle="tab" href="#total-list-table" role="tab" aria-controls="total-list-table" aria-selected="false">Total List Table</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" id="scatterplot-tab" data-toggle="tab" href="#scatterplot" role="tab" aria-controls="scatterplot" aria-selected="false">scatterplot</a>
+      <li className="nav-item">
+        <a className="nav-link" id="scatterplot-tab" data-toggle="tab" href="#ratings-scatterplot-chart" role="tab" aria-controls="ratings-scatterplot-chart" aria-selected="false">Ratings Scatterplot</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" id="barchart-tab" data-toggle="tab" href="#barchart" role="tab" aria-controls="barchart" aria-selected="false">barchart</a>
+      <li className="nav-item">
+        <a className="nav-link" id="barchart-tab" data-toggle="tab" href="#genre-barchart" role="tab" aria-controls="genre-barchart" aria-selected="false">Genre Barchart</a>
       </li>
     </ul>
-    <div class="tab-content" id="myTabContent">
-      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">test description</div>
-      <div class="tab-pane fade" id="table" role="tabpanel" aria-labelledby="table-tab"><Table watchlistData={watchlistData}/></div>
-      <div class="tab-pane fade" id="scatterplot" role="tabpanel" aria-labelledby="scatterplot-tab"><RatingsScatterplotChart/></div>
-      <div class="tab-pane fade" id="barchart" role="tabpanel" aria-labelledby="barchart-tab"><GenreChart/></div>
-    </div>  */}
+    <div className="tab-content" id="myTabContent">
+      <div className="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">test description</div>
+      <div className="tab-pane fade" id="total-list-table" role="tabpanel" aria-labelledby="table-tab">
+        <h3>Total List Table</h3>
+        <TotalListTable watchlistData={watchlistData}/></div>
+      <div className="tab-pane fade" id="ratings-scatterplot-chart" role="tabpanel" aria-labelledby="scatterplot-tab">
+        <h3>Ratings Scatterplot Chart </h3>
+        <RatingsScatterplotChart/></div>
+      <div className="tab-pane fade" id="genre-barchart" role="tabpanel" aria-labelledby="barchart-tab">
+        <h3>Genre Barchart</h3>
+        <GenreBarChart/>
+      </div>
+    </div> 
       
     </div>
   );

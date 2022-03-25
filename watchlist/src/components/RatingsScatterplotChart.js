@@ -14,7 +14,7 @@ export default class RatingsScatterplotChart extends PureComponent {
         <ZAxis dataKey="Title" name="title" />
         <Tooltip cursor={{ strokeDasharray: '3 3' }} />
         <Legend />
-        <Scatter name="Titles" data={watchlistData} fill="#008080" />
+        <Scatter name="Titles" data={watchlistData} fill="#A6FFFF" />
     </ScatterChart>
     );
   }

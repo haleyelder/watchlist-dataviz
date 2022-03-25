@@ -10,6 +10,7 @@ export default class RatingsScatterplotChart extends PureComponent {
        })
 
         return (
+            
             watchlistData.length > 0 && (   
                 <table>
                     <thead>
