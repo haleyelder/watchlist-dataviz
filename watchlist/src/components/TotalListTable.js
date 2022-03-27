@@ -10,8 +10,6 @@ export default class RatingsScatterplotChart extends PureComponent {
        })
 
         return (
-            
-            watchlistData.length > 0 && (   
                 <table>
                     <thead>
                         <tr>
@@ -27,7 +25,8 @@ export default class RatingsScatterplotChart extends PureComponent {
                         </tr>
                     </thead>
                     <tbody>
-                        {watchlistData.map(id => (
+
+                     {watchlistData.map(id => (
                             <tr>
                                 <td key={id}>{id.id}</td>
                                 <td>{id.DateCompleted}</td>
@@ -39,11 +38,11 @@ export default class RatingsScatterplotChart extends PureComponent {
                                 <td>{id.Year}</td>
                                 <td>{id.Genre}</td>
                             </tr>
-                        ))}
+                        ))} 
+                
                     </tbody>
                 </table>
 
             )
-        )
     }
 }

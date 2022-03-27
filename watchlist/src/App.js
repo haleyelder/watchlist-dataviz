@@ -31,13 +31,23 @@ function App() {
     </ul>
     <div className="tab-content" id="tabs-content">
       <div className="tab-pane fade show" id="total-list-table" role="tabpanel" aria-labelledby="table-tab">
-        <h4 className="tab-description"> some description here </h4>
+        <div className="tab-description">
+          <p> some more info here TBD </p>
+        </div>
         <TotalListTable watchlistData={watchlistData}/></div>
       <div className="tab-pane fade" id="ratings-scatterplot-chart" role="tabpanel" aria-labelledby="scatterplot-tab">
-      <h4 className="tab-description"> some description here </h4>
+      <h4> </h4>
+          <div className="tab-description">
+            <p> KEY </p>
+            <p>watched:</p>
+            <p>rating:</p>
+            <p>title:</p>
+          </div>
         <RatingsScatterplotChart/></div>
       <div className="tab-pane fade" id="genre-barchart" role="tabpanel" aria-labelledby="barchart-tab">
-      <h4 className="tab-description"> some description here </h4>
+      <div className="tab-description">
+          <p> some more info here TBD </p>
+        </div>
         <GenreBarChart/>
       </div>
     </div>      
