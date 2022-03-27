@@ -33,7 +33,7 @@ export default class GenreBarChart extends PureComponent {
   render() {
     return (
       <>
-     <BarChart width={900} height={500} data={newListGenre}>
+     <BarChart width={850} height={400} data={newListGenre}>
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="0" />
         <YAxis />

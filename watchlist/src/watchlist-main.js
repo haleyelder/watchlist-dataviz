@@ -386,6 +386,20 @@ const watchlistData = [{
 	"totalSeasons": "4",
 	"DateCompleted": "4/28/21",
 	"seasonsWatched": "1,2,3"
+},{
+	"Title": "Shadow and Bone",
+	"Year": "2021-",
+	"Rated": "TV-14",
+	"Released": "23 Apr 2021",
+	"Runtime": "N/A",
+	"Genre": "Action, Adventure, Drama",
+	"Director": "N/A",
+	"imdbRating": "7.7",
+	"imdbID": "tt2403776",
+	"Type": "series",
+	"totalSeasons": "2",
+	"DateCompleted": "5/1/21",
+	"seasonsWatched": "1"
 }, {
 	"Title": "Stranger Than Fiction *",
 	"Year": "2006",
