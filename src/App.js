@@ -13,7 +13,7 @@ function App() {
       </div>
 
       <div className='description'>
-        <p>This project covers most* all movie and tv show titles I had watched from the beginning of February 2021 to February 2022. My tracking list included only the date watched, title, and specific seasons watched, if it was a TV show, the remaining data was requested using <a href="https://www.omdbapi.com/" target="_blank">OMDb API</a> to fill in the rest. Each of the tabs below show this data in a large list and visual charts. The first is my entire watched titles list in table format, the second highlights the titles ratings provided from IMDb, and the third is a barchart showing the genre counts for the entire list. </p>
+        <p>This project covers most* all movie and tv show titles I had watched from the beginning of February 2021 to February 2022. My tracking list included only the date watched, title, and specific seasons watched, if it was a TV show, the remaining data was requested using <a href="https://www.omdbapi.com/" target="_blank" rel="noreferrer">OMDb API</a> to fill in the rest. Each of the tabs below show this data in a large list and visual charts. The first is my entire watched titles list in table format, the second highlights the titles ratings provided from IMDb, and the third is a barchart showing the genre counts for the entire list. </p>
 
         <em>* I noticed over the year the tracking document might've been updated with formatting and deleted or shifted some titles along the way. 99% of the titles should be here, but I've missed some</em>
      </div>

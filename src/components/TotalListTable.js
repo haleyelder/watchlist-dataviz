@@ -30,7 +30,7 @@ export default class RatingsScatterplotChart extends PureComponent {
                             <tr>
                                 <td key={id}>{id.id}</td>
                                 <td>{id.DateCompleted}</td>
-                                <td><a href={`https://www.imdb.com/title/${id.imdbID}/`} target="_blank">{id.Title}</a></td>
+                                <td><a href={`https://www.imdb.com/title/${id.imdbID}/`} target="_blank" rel="noreferrer">{id.Title}</a></td>
                                 <td>{id.Type}</td>
                                 <td>{id.totalSeasons}</td>
                                 <td>{id.seasonsWatched}</td>
