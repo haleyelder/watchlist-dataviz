@@ -2,7 +2,7 @@
 
 ** <b>[live link!](https://watchlist-data-analysis.netlify.app/)</b> ** 
 
-![Watchlist Data Visualization/Analysis](watchlist-dashboard.jpg "Watchlist Data Visualization/Analysis")
+![Watchlist Data Visualization/Analysis](./watchlist-dashboard.JPG)
 
 From early February 2021 to February 2022, I have been noting down most every title and show I had watched during the year and wanted to put this data into some sort of visualization. There are many data sets out there to experiment with, but this has a bit more personal flair to it. 
 
