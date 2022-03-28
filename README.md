@@ -1,32 +1,19 @@
 # Watchlist Data Visualization
 
-For most of 2021 and part into 2022, I've been noting down nearly every movie and tv show I have watched. This repo is using python to gather data from OMDB (open movie database API) to fill in some data points and later on use D3 as a data visualization. 
+** <b>[live link!](https://watchlist-data-analysis.netlify.app/)</b> ** 
 
-Steps/To Do:
+![Watchlist Data Visualization/Analysis](watchlist-dashboard.jpg "Watchlist Data Visualization/Analysis")
 
-## Python
-- [x] reads csv file; only first row of titles; verify titles are correct/easier to API request later 
-- [x] convert titles to lower case
-- [ ] ~convert spaces to + (%20 if needed)~
-- [x] request using t=title&key= 
-- [ ] ~save data fields to match in csv file~
-- [ ] ~multiple API requests per line~
-- [ ] ~update singular csv file with all data (completion date is manual)~
+From early February 2021 to February 2022, I have been noting down most every title and show I had watched during the year and wanted to put this data into some sort of visualization. There are many data sets out there to experiment with, but this has a bit more personal flair to it. 
 
-Found a solution through Google Sheets and an API call instead!
+Initially, I had wanted to practice some Python scripting to read my file and request data from an API, but did not have enough practice or knowledge at this time to figure it out in a timely manner. Instead, I found you can collect API data through Google Sheets "IMPORTDATA" to speed up this process to gathering the data. 
 
-## JavaScript/D3
-- [x} requested API data through dynamic calls with google sheets, cleaned/formatted data, and placed in watchlist-main.json
-  - [x] need to add dates, seasons to specify for shows
-TABS (vertial left sidebar with bootstrap):
-- [x] sort/filterable total table, date watched, genre, rating, type, links to imdb page, etc
-  - [ ] add sorting function
-- [x] dot plot chart for over time (x axis is time/date, y is imdb rating and/or year released) (https://observablehq.com/@d3/dot-plot or https://observablehq.com/@d3/scatterplot), hovering dot displays title and date watched (maybe link to spot on table?)
-- [x] bubble chart groupings(https://observablehq.com/@d3/zoomable-circle-packing or https://observablehq.com/@d3/bubble-chart): genres
-- optional: all in one data? inner radial is date (https://observablehq.com/@d3/radial-stacked-bar-chart-ii)
+For the visualization part of the project, again, I <i>thought </i> I was going to try and use [D3](https://d3js.org/) but went with [Recharts](https://recharts.org/en-US) instead as I was using React for the front end portion. 
+
+From the above, the original plan didn't work out, but I did find some new technologies to use and learn about! 😅
 
 ---------------------
-KNOWN ISSUES (contendes for v2):
-- on hover for recharts made parts of the Titles or Genres "jump"
+KNOWN ISSUES (contenders for v2):
+- on hover for Recharts made parts of the chart, titles, or genres "jump"
 - opted to not add a key for the listing as the data does not change in this project but im aware of React's [List and Keys](https://reactjs.org/docs/lists-and-keys.html) recommendation
-- Type error with the scatterplot rechart usage with this warning <code> Warning: Received NaN for the `width` attribute. If this is expected, cast the value to a string. </code>
+- Type error with the scatterplot Rechart usage with this warning <code> Warning: Received NaN for the `width` attribute. If this is expected, cast the value to a string. </code>
