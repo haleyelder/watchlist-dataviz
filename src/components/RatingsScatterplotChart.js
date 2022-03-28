@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import { ScatterChart, ZAxis, Scatter, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { ScatterChart, ZAxis, Scatter, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
 import watchlistData from '../watchlist-main';
 
 
