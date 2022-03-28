@@ -36,8 +36,9 @@ table, .recharts-wrapper {
 
 .tab-description {
   padding: 14px;
+  width: 75%;
   text-align: center;
-  line-height: 6px;
+  margin:0 auto;
 }
 
 .nav-tabs {

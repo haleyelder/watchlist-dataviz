@@ -21,19 +21,12 @@ Found a solution through Google Sheets and an API call instead!
 TABS (vertial left sidebar with bootstrap):
 - [x] sort/filterable total table, date watched, genre, rating, type, links to imdb page, etc
   - [ ] add sorting function
-- [ ] dot plot chart for over time (x axis is time/date, y is imdb rating and/or year released) (https://observablehq.com/@d3/dot-plot or https://observablehq.com/@d3/scatterplot), hovering dot displays title and date watched (maybe link to spot on table?)
-- [ ] bubble chart groupings(https://observablehq.com/@d3/zoomable-circle-packing or https://observablehq.com/@d3/bubble-chart): genres
+- [x] dot plot chart for over time (x axis is time/date, y is imdb rating and/or year released) (https://observablehq.com/@d3/dot-plot or https://observablehq.com/@d3/scatterplot), hovering dot displays title and date watched (maybe link to spot on table?)
+- [x] bubble chart groupings(https://observablehq.com/@d3/zoomable-circle-packing or https://observablehq.com/@d3/bubble-chart): genres
 - optional: all in one data? inner radial is date (https://observablehq.com/@d3/radial-stacked-bar-chart-ii)
 
--------------------
-Branding
-- dark blue: #00335A
-- dark purple: #4A004A
-- mint blue: #A6FFFF
-- light green?: #DAFF89
-
-Font Family:
-- description? Arvo and Roboto
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Roboto&display=swap" rel="stylesheet">
+---------------------
+KNOWN ISSUES (contendes for v2):
+- on hover for recharts made parts of the Titles or Genres "jump"
+- opted to not add a key for the listing as the data does not change in this project but im aware of React's [List and Keys](https://reactjs.org/docs/lists-and-keys.html) recommendation
+- Type error with the scatterplot rechart usage with this warning <code> Warning: Received NaN for the `width` attribute. If this is expected, cast the value to a string. </code>

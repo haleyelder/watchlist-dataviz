@@ -704,7 +704,7 @@ const watchlistData = [{
 	"imdbRating": "8.9",
 	"imdbID": "tt14536364",
 	"Type": "series",
-	"totalSeasons": "N/A",
+	"totalSeasons": "1",
 	"DateCompleted": "7/26/21",
 	"seasonsWatched": "1"
 }, {
