@@ -23,6 +23,12 @@ yarn-debug.log*
 yarn-error.log*
 
 notes.txt
+backup
+datareq.js
+test-data.json
+test-data.py
+
+
 .env
 # Local Netlify folder
 .netlify

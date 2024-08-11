@@ -10,15 +10,16 @@ for (let i = 0; i < watchlistData.length; i++){
   totalGenres.push(genres)
 }
 
-// flatten array into one large array 
+// flatten array into one large array
 totalGenres = totalGenres.flat()
+
 
 // count genres occurrences, push to new arr
 const count = {}
 for (const elem of totalGenres) {
   if (count[elem]) {
     count[elem] += 1
-   
+
   } else {
     count[elem] = 1
   }
@@ -27,6 +28,9 @@ for (const elem of totalGenres) {
 // data reads from arry of obj
 const newListGenre = []
 newListGenre.push(count)
+
+
+console.log(newListGenre)
 
 
 export default class GenreBarChart extends PureComponent {

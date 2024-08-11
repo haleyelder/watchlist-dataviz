@@ -1,5 +1,6 @@
 import TotalListTable from './components/TotalListTable.js';
-import GenreBarChart from './components/GenreBarChart.js'
+// import GenreBarChart from './components/GenreBarChart.js'
+import GenreBarChart2 from './components/GenreBarChart-2.js';
 import RatingsScatterplotChart from './components/RatingsScatterplotChart.js'
 import watchlistData from './watchlist-main.js'
 
@@ -55,9 +56,10 @@ function App() {
       <p> KEY/NOTES: </p>
           <p>This chart shows the total count of each genre watched over the year. Some titles had multiple genres and each were tallied to their respective group.</p>
         </div>
-        <GenreBarChart/>
+        {/* <GenreBarChart/> */}
+        <GenreBarChart2/>
       </div>
-    </div>      
+    </div>
     </div>
   );
 }
