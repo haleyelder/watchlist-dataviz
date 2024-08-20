@@ -61,6 +61,10 @@ table, .recharts-wrapper {
   bottom: 0 !important;
 }
 
+.mobile-landscape {
+  display: none;
+}
+
 thead {
   background-color: #350135;
 }
@@ -90,4 +94,10 @@ td {
 #genre-barchart > div > div.recharts-tooltip-wrapper.recharts-tooltip-wrapper-right.recharts-tooltip-wrapper-top div {
   background-color: #350135  !important;
   border: 2px solid #A6FFFF;
+}
+
+@media screen and (max-width: 500px) {
+  .mobile-landscape {
+    display:block;
+  }
 }

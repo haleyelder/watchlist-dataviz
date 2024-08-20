@@ -7,7 +7,6 @@ import {
   BarElement,
   Title,
   Tooltip,
-  Legend,
 } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
 
@@ -17,7 +16,6 @@ ChartJS.register(
     BarElement,
     Title,
     Tooltip,
-    Legend
   );
 
 
@@ -53,18 +51,20 @@ genreTypes = genreTypes.flat()
 
 export const options = {
     indexAxis: 'y',
+    scales: {
+      y: {
+        ticks: {color: 'white'}
+      },
+      x: {
+        ticks: {color: 'white'}
+      }
+    },
     elements: {
       bar: {
         borderWidth: 2,
       },
     },
     responsive: true,
-    plugins: {
-      title: {
-        display: true,
-        text: 'Chart.js Horizontal Bar Chart',
-      },
-    },
   };
 
 
@@ -76,7 +76,7 @@ export const data = {
     {
       label: 'Genre Counts',
       data: dataCounts,
-      backgroundColor: 'rgba(255, 255, 255, .75)',
+      backgroundColor: 'rgba(165, 255, 255, .5)',
     }
   ],
 };
