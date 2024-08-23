@@ -101,17 +101,14 @@ function App() {
           role="tabpanel"
           aria-labelledby="scatterplot-tab"
         >
-          <h4> </h4>
           <div className="tab-description">
             <p> KEY/NOTES: </p>
             <p>
               This chart shows the IMDb ratings (y axis) of each title spanned
               over the year (y axis).
             </p>
-            <p class="mobile-landscape">
-              <em>Best viewed in landscape mode on mobile</em>
-            </p>
           </div>
+
           <RatingsScatterplotChart />
         </div>
         <div
@@ -127,6 +124,9 @@ function App() {
               year. Some titles had multiple genres and each were tallied to
               their respective group.
             </p>
+            <p class="mobile-landscape">
+              <em>Best viewed in landscape mode on mobile</em>
+            </p>
           </div>
           <GenreBarChart />
         </div>
@@ -140,11 +140,11 @@ function App() {
           <h4> </h4>
           <div className="tab-description">
             <p>
-              This project covers most* all movie and tv show titles I
-              watched from early February 2021 to February 2022. My
-              tracking list included only the date watched, title, and specific
-              seasons watched, if it was a TV show, the remaining data was
-              requested using{" "}
+              This project covers most* all movie and tv show titles I watched
+              from early February 2021 to February 2022. My tracking list
+              included only the date watched, title, and specific seasons
+              watched, if it was a TV show, the remaining data was requested
+              using{" "}
               <a
                 href="https://www.omdbapi.com/"
                 target="_blank"
@@ -152,8 +152,8 @@ function App() {
               >
                 OMDb API
               </a>{" "}
-              to fill in the rest. Each tab shows this data in a
-              tabular list and visual charts. 
+              to fill in the rest. Each tab shows this data in a tabular list
+              and visual charts.
             </p>
             <em>
               * I noticed over the year the tracking document might've been

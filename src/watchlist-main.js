@@ -1140,16 +1140,16 @@ const watchlistData = [{
 	"DateCompleted": "10/31/21"
 }, {
 	"Title": "What We Do in the Shadows",
-	"Year": "2019–",
+	"Year": "2019-",
 	"Rated": "TV-MA",
-	"Released ": "27 Mar 2019",
-	"Runtime ": "30 min",
+	"Released": "27 Mar 2019",
+	"Runtime": "30 min",
 	"Genre": "Comedy, Fantasy, Horror",
-	"Director ": "Jemaine Clement, Taika Waititi",
-	"imdbRating ": "8.6",
-	"imdbID ": "tt7908628",
-	"Type ": "series",
-	"totalSeasons ": "4",
+	"Director": "Jemaine Clement, Taika Waititi",
+	"imdbRating": "8.6",
+	"imdbID": "tt7908628",
+	"Type": "series",
+	"totalSeasons": "4",
 	"DateCompleted": "10/31/21",
 	"seasonsWatched": "3"
 }, {

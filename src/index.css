@@ -57,12 +57,13 @@ table, .recharts-wrapper {
   border-bottom: 6px solid #A6FFFF;
 }
 
-#ratings-scatterplot-chart > div > div.recharts-legend-wrapper {
-  bottom: 0 !important;
-}
-
 .mobile-landscape {
   display: none;
+}
+
+canvas {
+  width:80% !important;
+  margin: 0 auto;
 }
 
 thead {
