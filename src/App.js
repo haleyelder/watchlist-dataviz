@@ -104,8 +104,7 @@ function App() {
           <div className="tab-description">
             <p> KEY/NOTES: </p>
             <p>
-              This chart shows the IMDb ratings (y axis) of each title spanned
-              over the year (y axis).
+              This chart shows the IMDb ratings (y axis) of titles in chronological order. The chart did not allow for titles, but the first number will correspond with the ID on the Total List Table tab.
             </p>
           </div>
 

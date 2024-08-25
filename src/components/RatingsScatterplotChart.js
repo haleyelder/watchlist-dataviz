@@ -15,7 +15,11 @@ export const options = {
   scales: {
     y: {
       beginAtZero: true,
+      ticks: {color: 'white'}
     },
+    x: {
+      ticks: {color: "white"}
+    }
   },
 };
 
